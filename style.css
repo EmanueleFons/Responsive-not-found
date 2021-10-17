@@ -1,0 +1,63 @@
+/*===========RESET==========*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono', monospace;
+}
+
+/*=======MOBILE============ */
+.title {
+  font-size: 1.5em;
+  margin-left: 40px;
+}
+.section-img img {
+  margin-top: 40px;
+  max-width: 100%;
+}
+.section-text {
+  margin-left: 40px;
+}
+.section-text h2 {
+  font-size: 3em;
+}
+.section-text p {
+  margin-bottom: 20px;
+}
+button {
+  background: #333333;
+  color: white;
+  border: none;
+  width: 160px;
+  height: 40px;
+  cursor: pointer;
+}
+/*=======LARGE TABLET & LAPTOP STYLES============ */
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 1em;
+  }
+  .container {
+    width: 100%;
+    max-width: 1060px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+  }
+  .container .section-text {
+    margin-top: 150px;
+  }
+  .container .section-text h2 {
+    margin-bottom: 40px;
+  }
+  .container .section-text p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  .container .section-img {
+    margin-top: 40px;
+    margin-right: 40px;
+  }
+}
